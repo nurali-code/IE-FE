@@ -19,7 +19,7 @@
             <nav class="navbar">
                 <a class="navbar__link" href="./index.html">Main Page</a>
                 <a class="navbar__link" href="./categories.html">Categories</a>
-                <a class="navbar__link" href="#">All products</a>
+                <a class="navbar__link" href="./list.html">All products</a>
                 <a class="navbar__link" href="#">All sales</a>
             </nav>
             <a href="./cart.html" class="cart" title="Shopping cart">
@@ -31,7 +31,7 @@
     <main class="listing">
         <div class="container">
             <h1 class="h2">Tools and equipment</h1>
-            <div class="fx">
+            <div class="fx listing-filters">
                 <div class="filter fx">
                     <span class="label">Price</span>
                     <div class="fx">
@@ -40,8 +40,17 @@
                     </div>
                 </div>
                 <div class="filter fx checkbox">
-                    <label for="check" class="label">Discounted items</label>
                     <input type="checkbox" id="check">
+                    <label for="check" class="label">Discounted items</label>
+                </div>
+                <div class="filter fx">
+                    <label for="check" class="label">Sorted</label>
+                    <select name="sorted" id="sorted">
+                        <option value="by default">by default</option>
+                        <option value="newest">newest</option>
+                        <option value="price: high-low">price: high-low</option>
+                        <option value="price: low-high">price: low-high</option>
+                    </select>
                 </div>
             </div>
         </div>
