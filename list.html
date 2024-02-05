@@ -28,47 +28,21 @@
         </div>
     </header>
 
-    <main class="card">
-        <div class="container fx-wrp">
-            <div class="card-img">
-                <img src="img/img-3.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h1 class="text-big card__heading">Secateurs</h1>
-                <p class="card-price">
-                    <strong class="h2">$199</strong>
-                    <s class="text-big">$240</s>
-                    <sup class="discount">-17%</sup>
-                </p>
-                <div class="fx card-act">
-                    <div class="amount fx">
-                        <button class="amount__remove">–</button>
-                        <input type="tel" value="1">
-                        <button class="amount__add">+</button>
+    <main class="listing">
+        <div class="container">
+            <h1 class="h2">Tools and equipment</h1>
+            <div class="fx">
+                <div class="filter fx">
+                    <span class="label">Price</span>
+                    <div class="fx">
+                        <input type="number" placeholder="from">
+                        <input type="number" placeholder="to">
                     </div>
-                    <button class="btn">Add to cart</button>
                 </div>
-
-                <h3 class="card__subheding">Description</h3>
-                <p class="card__text">
-                    This high quality everyday secateur features a fully hardened and tempered,
-                    high-carbon steel blade for lasting sharpness. For comfort, the robust but lightweight alloy handles
-                    are covered in a soft grip, in a bright terracotta colour for maximum visibility in the garden.
-                    It won’t be easy to leave this pruner behind at the end of the day! Rubber cushion stops prevent
-                    jarring over repeated use, reducing hand strain for the user.
-                    <br>
-                    <br>
-                    This secateur cuts
-                    up to 2.5 cm diameter. Carrying RHS endorsement, possibly the highest accolade
-                    in gardening, for peace of mind this pruner comes with a ten-year guarantee against
-                    <span data-togler-content="1">
-                        manufacturing defects. Supplied with replacement blade and spare spring. You may also
-                        be interested in our pack of two replacement springs.
-                    </span>
-                    <br>
-                    <br>
-                    <button class="btn_link" data-togler-btn="1">Read more</button>
-                </p>
+                <div class="filter fx checkbox">
+                    <label for="check" class="label">Discounted items</label>
+                    <input type="checkbox" id="check">
+                </div>
             </div>
         </div>
     </main>
