@@ -65,7 +65,6 @@
             width: 100%
             margin-top: 16px
 
-
 .item
     display: block
     width: 23%
@@ -228,3 +227,66 @@
         justify-content: flex-start
         gap: 40px
         margin-bottom: 40px
+
+.shopping_cart
+    .col
+        width: 58%
+        &:last-child
+            width: 40%
+
+    &-item
+        justify-content: flex-start
+        align-items: stretch
+        width: 100%
+        overflow: hidden
+        border: 1px solid #DDDDDD
+        border-radius: 12px
+        margin-bottom: 16px
+
+    &-price
+        gap: 16px
+        align-items: flex-end
+        strong
+            margin: 0
+        s
+            color: #8B8B8B
+            display: inline-block
+
+    &__img
+        display: block
+        width: 200px
+        height: 180px
+        object-fit: cover
+        border-right: 1px solid #DDDDDD
+
+    &-title
+        padding: 32px
+
+    &__heading
+        margin-bottom: 30px
+
+    .amount
+        margin-right: 32px
+
+    &-order
+        border-radius: 12px
+        background: #F1F3F4
+        padding: 32px
+        .text-big
+            color: #8B8B8B
+            font-weight: 500
+
+        &__heading 
+            font-weight: 600 !important
+            margin-bottom: 24px
+            color: #000 !important
+        .h2
+            color: #282828 
+            margin: 0
+
+    form 
+        margin-top: 32px
+
+    .btn 
+        width: 100%
+        margin-top: 16px
